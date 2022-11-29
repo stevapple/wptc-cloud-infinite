@@ -53,6 +53,8 @@ abstract class Utilities {
             return wp_parse_url($input, PHP_URL_HOST) ?? $input;
         }, $domains);
         // Encode IDN domain names to ASCII.
-        return array_map('idn_to_ascii', $domains);
+        $domains = array_map('idn_to_ascii', $domains);
+        // Ensure that the domains are unique.
+        return array_unique($domains);
     }
 }
