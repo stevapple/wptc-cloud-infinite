@@ -17,5 +17,8 @@
       "email": "stevapple@icloud.com"
     }
   ],
-  "require": {}
+  "require": {},
+  "require-dev": {
+    "yoast/phpunit-polyfills": "^1.0.0"
+  }
 }
