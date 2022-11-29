@@ -1,0 +1,180 @@
+# Copyright (C) 2022 YR Chen
+# This file is distributed under the Apache-2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Enhanced Media with Cloud Infinite 0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wptc-cloud-infinite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-26T10:05:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wptc-cloud-infinite\n"
+
+#. Plugin Name of the plugin
+msgid "Enhanced Media with Cloud Infinite"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/stevapple/wptc-cloud-infinite"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enhances WordPress media library with cloud-based intelligent data processing powered by Cloud Infinite."
+msgstr ""
+
+#. Author of the plugin
+msgid "YR Chen"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/stevapple"
+msgstr ""
+
+#: src/Enums/ImageQuality/ControlMode.php:33
+msgctxt "Cloud Infinite image quality control mode."
+msgid "maximum"
+msgstr ""
+
+#: src/Enums/ImageQuality/ControlMode.php:35
+msgctxt "Cloud Infinite image quality control mode."
+msgid "minimum"
+msgstr ""
+
+#: src/Enums/ImageQuality/ControlMode.php:37
+msgctxt "Cloud Infinite image quality control mode."
+msgid "absolute"
+msgstr ""
+
+#: src/Enums/ImageQuality/ControlMode.php:39
+msgctxt "Cloud Infinite image quality control mode."
+msgid "relative"
+msgstr ""
+
+#: src/General.php:16
+#: src/General.php:59
+msgid "Avoid large images being minified before saving to media library."
+msgstr ""
+
+#: src/General.php:24
+#: src/General.php:69
+msgid "Don't create additional image sizes when saving to media library."
+msgstr ""
+
+#: src/General.php:32
+msgid "A list of resource domains that has CI enabled."
+msgstr ""
+
+#: src/General.php:48
+msgid "Automatic Image Crops"
+msgstr ""
+
+#: src/General.php:80
+msgid "Cloud Infinite Settings"
+msgstr ""
+
+#: src/General.php:81
+msgid "Cloud Infinite"
+msgstr ""
+
+#: src/General.php:124
+msgid "Domains that can use Cloud Infinite"
+msgstr ""
+
+#: src/General.php:129
+msgid "Attachments using the following domains are able to benefit from Cloud Infinite functionalities."
+msgstr ""
+
+#: src/General.php:131
+msgid "If left empty, Cloud Infinite rules will be applied to all attachments by default."
+msgstr ""
+
+#: src/ImageQuality.php:16
+msgid "Enable cloud-based image quality control by Cloud Infinite."
+msgstr ""
+
+#: src/ImageQuality.php:24
+msgid "Image quality control mode for Cloud Infinite."
+msgstr ""
+
+#: src/ImageQuality.php:33
+msgid "Expected image quality score for Cloud Infinite (0-100)."
+msgstr ""
+
+#: src/ImageQuality.php:42
+#: src/ImageResize.php:31
+msgid "Returns the original image when CI pipeline fails."
+msgstr ""
+
+#: src/ImageQuality.php:56
+msgid "Image Quality (Beta)"
+msgstr ""
+
+#: src/ImageQuality.php:58
+msgid "You can apply image quality control rule to attachments to speed up page load."
+msgstr ""
+
+#: src/ImageQuality.php:65
+#: src/ImageResize.php:53
+msgid "General"
+msgstr ""
+
+#: src/ImageQuality.php:76
+msgid "Enable cloud-based image quality control."
+msgstr ""
+
+#: src/ImageQuality.php:86
+#: src/ImageResize.php:74
+msgid "Return the original image when processing fails."
+msgstr ""
+
+#: src/ImageQuality.php:97
+msgid "Image Quality Settings"
+msgstr ""
+
+#: src/ImageQuality.php:102
+msgid "Set the "
+msgstr ""
+
+#: src/ImageQuality.php:114
+msgid " image quality"
+msgstr ""
+
+#: src/ImageQuality.php:117
+msgid " to "
+msgstr ""
+
+#: src/ImageQuality.php:126
+msgid "Image quality ranges from 0 to 100."
+msgstr ""
+
+#: src/ImageResize.php:15
+msgid "Enable cloud-based image resizing powered by Cloud Infinite."
+msgstr ""
+
+#: src/ImageResize.php:23
+msgid "Prefer intermediate image sizes to CI resizing."
+msgstr ""
+
+#: src/ImageResize.php:44
+msgid "Image Resize"
+msgstr ""
+
+#: src/ImageResize.php:46
+msgid "With CI image resize, you can embed images of exactly any size you want, without saving additional copies."
+msgstr ""
+
+#: src/ImageResize.php:64
+msgid "Enable cloud-based image resizing."
+msgstr ""
+
+#: src/ImageResize.php:85
+msgid "Intermediate Sizes"
+msgstr ""
+
+#: src/ImageResize.php:94
+msgid "Always prefer intermediate image sizes."
+msgstr ""

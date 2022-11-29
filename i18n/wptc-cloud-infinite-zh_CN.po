@@ -1,0 +1,190 @@
+# Copyright (C) 2022 YR Chen <stevapple@icloud.com>
+# This file is distributed under the Apache 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cloud Infinite 0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wptc-cloud-"
+"infinite\n"
+"POT-Creation-Date: 2022-11-26T10:05:23+00:00\n"
+"PO-Revision-Date: 2022-11-26 18:05+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2\n"
+"X-Domain: wptc-cloud-infinite\n"
+
+#. Plugin Name of the plugin
+msgid "Enhanced Media with Cloud Infinite"
+msgstr "数据万象媒体功能增强"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/stevapple/wptc-cloud-infinite"
+msgstr "https://github.com/stevapple/wptc-cloud-infinite"
+
+#. Description of the plugin
+msgid ""
+"Enhances WordPress media library with cloud-based intelligent data "
+"processing powered by Cloud Infinite."
+msgstr "使用数据万象提供的云端智能数据处理功能来增强WordPress媒体库。"
+
+#. Author of the plugin
+msgid "YR Chen"
+msgstr "YR Chen"
+
+#. Author URI of the plugin
+msgid "https://github.com/stevapple"
+msgstr "https://github.com/stevapple"
+
+#: src/Enums/ImageQuality/ControlMode.php:33
+msgctxt "Cloud Infinite image quality control mode."
+msgid "maximum"
+msgstr "最大"
+
+#: src/Enums/ImageQuality/ControlMode.php:35
+msgctxt "Cloud Infinite image quality control mode."
+msgid "minimum"
+msgstr "最小"
+
+#: src/Enums/ImageQuality/ControlMode.php:37
+msgctxt "Cloud Infinite image quality control mode."
+msgid "absolute"
+msgstr "绝对"
+
+#: src/Enums/ImageQuality/ControlMode.php:39
+msgctxt "Cloud Infinite image quality control mode."
+msgid "relative"
+msgstr "相对"
+
+#: src/General.php:16 src/General.php:59
+msgid "Avoid large images being minified before saving to media library."
+msgstr "避免大尺寸图片在加入媒体库时被自动缩小。"
+
+#: src/General.php:24 src/General.php:69
+msgid "Don't create additional image sizes when saving to media library."
+msgstr "不要为媒体库中的图片保存额外的尺寸。"
+
+#: src/General.php:32
+msgid "A list of resource domains that has CI enabled."
+msgstr "启用数据万象的资源域名列表。"
+
+#: src/General.php:48
+msgid "Automatic Image Crops"
+msgstr "自动图片裁切"
+
+#: src/General.php:80
+msgid "Cloud Infinite Settings"
+msgstr "数据万象设置"
+
+#: src/General.php:81
+msgid "Cloud Infinite"
+msgstr "数据万象"
+
+#: src/General.php:124
+msgid "Domains that can use Cloud Infinite"
+msgstr "启用数据万象的域名"
+
+#: src/General.php:129
+msgid ""
+"Attachments using the following domains are able to benefit from Cloud "
+"Infinite functionalities."
+msgstr "使用这些域名的附件可以使用数据万象功能。"
+
+#: src/General.php:131
+msgid ""
+"If left empty, Cloud Infinite rules will be applied to all attachments by "
+"default."
+msgstr "如果留空，则默认对所有域名启用数据万象。"
+
+#: src/ImageQuality.php:16
+msgid "Enable cloud-based image quality control by Cloud Infinite."
+msgstr "使用数据万象进行图片质量处理。"
+
+#: src/ImageQuality.php:24
+msgid "Image quality control mode for Cloud Infinite."
+msgstr "数据万象图片质量处理模式。"
+
+#: src/ImageQuality.php:33
+msgid "Expected image quality score for Cloud Infinite (0-100)."
+msgstr "数据万象图片质量分数（0到100）。"
+
+#: src/ImageQuality.php:42 src/ImageResize.php:31
+msgid "Returns the original image when CI pipeline fails."
+msgstr "数据万象管线出错时直接返回原图。"
+
+#: src/ImageQuality.php:56
+msgid "Image Quality (Beta)"
+msgstr "图像质量（Beta）"
+
+#: src/ImageQuality.php:58
+msgid ""
+"You can apply image quality control rule to attachments to speed up page "
+"load."
+msgstr "您可以向附件应用图像质量控制规则，从而提高页面加载速度。"
+
+#: src/ImageQuality.php:65 src/ImageResize.php:53
+msgid "General"
+msgstr "常规"
+
+#: src/ImageQuality.php:76
+msgid "Enable cloud-based image quality control."
+msgstr "启用云端图片质量控制。"
+
+#: src/ImageQuality.php:86 src/ImageResize.php:74
+msgid "Return the original image when processing fails."
+msgstr "处理出错时直接返回原图。"
+
+#: src/ImageQuality.php:97
+msgid "Image Quality Settings"
+msgstr "图像质量设置"
+
+#: src/ImageQuality.php:102
+msgid "Set the "
+msgstr "将"
+
+#: src/ImageQuality.php:114
+msgid " image quality"
+msgstr "图像质量"
+
+#: src/ImageQuality.php:117
+msgid " to "
+msgstr "设置为"
+
+#: src/ImageQuality.php:126
+msgid "Image quality ranges from 0 to 100."
+msgstr "图像质量的取值范围为0到100。"
+
+#: src/ImageResize.php:15
+msgid "Enable cloud-based image resizing powered by Cloud Infinite."
+msgstr "使用数据万象进行云端图片裁切。"
+
+#: src/ImageResize.php:23
+msgid "Prefer intermediate image sizes to CI resizing."
+msgstr "优先使用预生成的图片尺寸。"
+
+#: src/ImageResize.php:44
+msgid "Image Resize"
+msgstr "图片裁切"
+
+#: src/ImageResize.php:46
+msgid ""
+"With CI image resize, you can embed images of exactly any size you want, "
+"without saving additional copies."
+msgstr ""
+"使用云端图片裁切功能，您可以在网站中嵌入任意尺寸的图片，而无需保存任何额外的"
+"副本。"
+
+#: src/ImageResize.php:64
+msgid "Enable cloud-based image resizing."
+msgstr "启用云端图片裁切。"
+
+#: src/ImageResize.php:85
+msgid "Intermediate Sizes"
+msgstr "中间尺寸"
+
+#: src/ImageResize.php:94
+msgid "Always prefer intermediate image sizes."
+msgstr "如果存在匹配的中间尺寸，总是优先使用。"

@@ -1,0 +1,21 @@
+{
+  "name": "stevapple/wpci-enhanced-media",
+  "description": "This plugin enhances WordPress media library with Cloud Infinite, bringing cloud-based intelligent data processing for different types of data such as images.",
+  "type": "library",
+  "license": "Apache 2.0",
+  "autoload": {
+    "psr-4": {
+      "WPTC\\CloudInfinite\\": "src/"
+    },
+    "files": [
+      "inc/class-wptc-functionality.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "stevapple",
+      "email": "stevapple@icloud.com"
+    }
+  ],
+  "require": {}
+}
