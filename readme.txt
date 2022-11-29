@@ -16,10 +16,10 @@ This plugin integrates the power of Cloud Infinite into WordPress, empowering us
 
 == Installation ==
 1. Upload the plugin files to the `/wp-content/plugins/wptc-cloud-infinite` directory.
-2. Activate the plugin through the \'Plugins\' screen in WordPress.
-3. Enable plugin functionalities through the \'Cloud Infinite\' option page in WordPress.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Enable plugin functionalities through the 'Cloud Infinite' option page in WordPress.
 
 == Frequently Asked Questions ==
 1. The plugin enables CI processing for every attachment by default. You are recommended to set the domain allow-list for explicit control.
 2. Cloud Infinite requires using COS bucket as media library storage backend. You can check in the bucket dashboard if CI is enabled.
-3. If you\'re using a CDN, please make sure that your CDN doesn\'t strip queries.
+3. If you're using a CDN, please make sure that your CDN doesn't strip queries.
