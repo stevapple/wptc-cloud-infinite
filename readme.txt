@@ -4,7 +4,7 @@ Tags: tencent-cloud,media-library
 Requires at least: 5.5
 Tested up to: 6.1.1
 Requires PHP: 7.2
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: Apache-2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0.txt
 

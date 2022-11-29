@@ -4,7 +4,7 @@
 Plugin Name: Enhanced Media with Cloud Infinite
 Plugin URI: https://github.com/stevapple/wptc-cloud-infinite
 Description: Enhances WordPress media library with cloud-based intelligent data processing powered by Cloud Infinite.
-Version: 0.1
+Version: 0.1.1
 Requires at least: 5.5
 Requires PHP: 7.2
 Author: YR Chen
