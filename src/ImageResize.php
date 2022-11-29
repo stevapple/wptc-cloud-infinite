@@ -133,7 +133,7 @@ abstract class ImageResize implements \WPTC\Functionality {
         }
 
         // Skip if CI is not enabled for the domain.
-        if (Utilities::checkURLForCI($attachment_url)) {
+        if (Utilities::checkURLForCI($attachment_url) === false) {
             return false;
         }
 

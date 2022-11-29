@@ -148,7 +148,7 @@ abstract class ImageQuality implements \WPTC\Functionality {
      */
     public static function addQualityControl($url, $attachment_id) {
         // Skip if CI is not enabled for the domain.
-        if (Utilities::checkURLForCI($url)) {
+        if (Utilities::checkURLForCI($url) === false) {
             return false;
         }
         // Filter supported image types.
