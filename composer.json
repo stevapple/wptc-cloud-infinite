@@ -1,9 +1,9 @@
 {
   "name": "stevapple/wptc-cloud-infinite",
   "description": "Enhances WordPress media library with cloud-based intelligent data processing powered by Cloud Infinite.",
-  "version": "0.1.2",
+  "homepage": "https://wordpress.org/plugins/wptc-cloud-infinite",
   "type": "library",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "autoload": {
     "psr-4": {
       "WPTC\\CloudInfinite\\": "src/"
@@ -18,7 +18,9 @@
       "email": "stevapple@icloud.com"
     }
   ],
-  "require": {},
+  "require": {
+    "php": ">=7.2"
+  },
   "require-dev": {
     "phpunit/phpunit": "^9.0.0",
     "yoast/phpunit-polyfills": "^1.0.0"
